@@ -1,0 +1,53 @@
+/* General page padding and spacing */
+body {
+  padding-top: 60px;
+}
+
+/* Navbar brand logo spacing */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* Welcome heading */
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-primary,
+.btn-success {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Task completion highlight */
+.table-success td {
+  font-weight: 500;
+  color: #155724;
+}
+
+/* Alert boxes spacing */
+.alert {
+  margin-top: 15px;
+}
+
+/* Form enhancements */
+form label {
+  font-weight: 500;
+}
+
+form input, form textarea, form select {
+  border-radius: 0.375rem;
+}
+
+/* Responsive spacing below nav */
+.container {
+  max-width: 960px;
+}
+
+/* Flash messages */
+.alert-warning, .alert-info, .alert-danger {
+  font-size: 0.95rem;
+  padding: 10px 15px;
+}
